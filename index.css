@@ -1,5 +1,8 @@
+
 body {
-	background-color: #a2add0;
+    background: #4568DC;  
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC); 
+    background: linear-gradient(to right, #B06AB3, #4568DC); 
 	font-family: "Poppins", sans-serif;
 	display: flex;
 	justify-content: center;
@@ -34,4 +37,25 @@ p {
 	margin: 20px;
 	font-size: 30px;
 	color: white;
+}
+@media only screen and (max-width: 678px) {
+	#display-days,
+	#display-hours,
+	#display-minutes,
+	#display-seconds {
+		font-size: 20px;
+	}
+	#days p,
+	#hours p {
+		font-size: 16px;
+		margin: 0 5px;
+		text-align: center;
+	}
+    
+	#minutes p,
+	#seconds p {
+		font-size: 16px;
+		margin: 0 3px;
+		text-align: center;
+	}
 }
