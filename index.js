@@ -1,14 +1,14 @@
 // clock - ok
 
-const clockEl = document.querySelector("#clock")
+// const clockEl = document.querySelector("#clock")
 
-function timer() {
-	let timeDate = new Date().toLocaleDateString()
-	let time = new Date().toLocaleTimeString()
-	clockEl.innerHTML = `${timeDate} <br /> ${time}`
-}
+// function timer() {
+//	let timeDate = new Date().toLocaleDateString()
+//	let time = new Date().toLocaleTimeString()
+//	clockEl.innerHTML = `${timeDate} <br /> ${time}`
+// }
 
-setInterval(timer, 1000)
+// setInterval(timer, 1000)
 
 // countdown timer
 
