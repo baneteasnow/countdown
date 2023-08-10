@@ -1,14 +1,12 @@
 body {
-	/* background: #4568dc;
-	background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
-	background: linear-gradient(to right, #b06ab3, #4568dc); */
 	background: linear-gradient(
-		/* to right top, */ -120deg,
+		/* to right top,  */ -120deg,
 		#d8e2dc,
 		#ffe5d9,
 		#ffcad4,
 		#f4acb7 /* #696d7d */
 	);
+	/* background: linear-gradient(-120deg, lightgreen, lightblue); */
 	font-family: "Poppins", sans-serif;
 	display: flex;
 	justify-content: center;
