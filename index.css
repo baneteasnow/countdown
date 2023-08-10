@@ -1,20 +1,26 @@
-
 body {
-    background: #4568DC;  
-    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC); 
-    background: linear-gradient(to right, #B06AB3, #4568DC); 
+	/* background: #4568dc;
+	background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
+	background: linear-gradient(to right, #b06ab3, #4568dc); */
+	background: linear-gradient(
+		/* to right top, */ -120deg,
+		#d8e2dc,
+		#ffe5d9,
+		#ffcad4,
+		#f4acb7 /* #696d7d */
+	);
 	font-family: "Poppins", sans-serif;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
 	flex-direction: column;
-	color: white;
+	color: #696d7d;
 }
 /* clock */
 #clock {
 	font-size: 45px;
-	color: white;
+	color: #696d7d;
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -24,6 +30,13 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
+	background-color: rgba(221, 160, 221, 0.2);
+	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.4);
+	max-width: 650px;
+	min-width: 350px;
+	padding: 20px;
+	border: 3px #696d7d solid;
+	border-radius: 20px;
 }
 #display-days,
 #display-hours,
@@ -36,7 +49,12 @@ body {
 p {
 	margin: 20px;
 	font-size: 30px;
-	color: white;
+	color: #696d7d;
+}
+.heart {
+	padding: 40px;
+	font-weight: bold;
+	font-size: large;
 }
 @media only screen and (max-width: 678px) {
 	#display-days,
@@ -51,7 +69,7 @@ p {
 		margin: 0 5px;
 		text-align: center;
 	}
-    
+
 	#minutes p,
 	#seconds p {
 		font-size: 16px;
