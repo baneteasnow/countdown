@@ -24,11 +24,12 @@ body {
 }
 /* countdown timer */
 #count-down {
+	background: linear-gradient(12deg, #efb5a1, #d0d7d8);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
-	background-color: rgba(221, 160, 221, 0.2);
+	/* background-color: rgba(221, 160, 221, 0.2); */
 	box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.4);
 	max-width: 650px;
 	min-width: 350px;
@@ -53,6 +54,7 @@ p {
 	padding: 40px;
 	font-weight: bold;
 	font-size: large;
+	color: deeppink;
 }
 @media only screen and (max-width: 678px) {
 	#display-days,
